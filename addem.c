@@ -117,7 +117,7 @@ int main(int argc, char * argv[]){
         SendMsg(i + 1, parentMessage[i]); //Send RANGE to child threads.
     }
 
-    //Make the threads:
+    //Initialize threads:
     for(int i = 0; i < numThreads; i++){
         threads[i] = (pthread_t *)malloc(sizeof(pthread_t));
         pthread_create(threads[i], NULL, &threadFunction, (void *)(intptr_t)(i + 1));
