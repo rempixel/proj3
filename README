@@ -1,3 +1,6 @@
 addem.c:
 Addem is a command line program that sums all integers from 1 to a given number using the given number of threads (with a maximum of 10 threads).
 Usage: ./addem <numOfThreads>, <Number to add to>
+
+life.c:
+Life is a command line program that plays Conway's Game of Life using multiple threads. The thread logic is based off of Addem's logic.
