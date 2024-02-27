@@ -1,0 +1,83 @@
+Script started on 2023-09-29 10:59:25-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;cs2011@cs2011vm: ~/proj3[01;32mcs2011@cs2011vm[00m:[01;34m~/proj3[00m$ make
+gcc -o addem addem.c -lpthread
+gcc -o life life.c -lpthread
+]0;cs2011@cs2011vm: ~/proj3[01;32mcs2011@cs2011vm[00m:[01;34m~/proj3[00m$ ./addem 10 100
+The total for 1 to 100 using 10 threads is 5050.
+]0;cs2011@cs2011vm: ~/proj3[01;32mcs2011@cs2011vm[00m:[01;34m~/proj3[00m$ ./addem 10 100[C[Cmake[K clean./life 1 gamelife.txt 10 ny3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Paddem 12 125[1P 1252 125
+Number of threads must be between 1 and 10.
+]0;cs2011@cs2011vm: ~/proj3[01;32mcs2011@cs2011vm[00m:[01;34m~/proj3[00m$ ./addem 12 1250 100make[K clean./life 1 gamelife.txt 10 ny3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Paddem 12 125[1P 125
+The total for 1 to 125 using 1 threads is 7875.
+]0;cs2011@cs2011vm: ~/proj3[01;32mcs2011@cs2011vm[00m:[01;34m~/proj3[00m$ ./addem 1 1252 1250 100make[K clean./life 1 gamelife.txt 10 ny3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Generation 0:
+0 1 0 0 
+0 0 1 0 
+1 0 0 1 
+
+Generation 1:
+0 0 0 0 
+0 1 1 0 
+0 0 0 0 
+
+Generation 2:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+
+Final Board:
+Generation 2:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+
+]0;cs2011@cs2011vm: ~/proj3[01;32mcs2011@cs2011vm[00m:[01;34m~/proj3[00m$ ./life 3 gamelife.txt 10 y[13Paddem 1 1252 1250 100make[K clean./life 1 gamelife.txt 10 ny3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kn
+Generation 0:
+0 1 0 0 
+0 0 1 0 
+1 0 0 1 
+
+Final Board:
+Generation 2:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+
+]0;cs2011@cs2011vm: ~/proj3[01;32mcs2011@cs2011vm[00m:[01;34m~/proj3[00m$ ./life 3 gamelife.txt 10 n[1P[1@1
+Generation 0:
+0 1 0 0 
+0 0 1 0 
+1 0 0 1 
+
+Final Board:
+Generation 2:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+
+]0;cs2011@cs2011vm: ~/proj3[01;32mcs2011@cs2011vm[00m:[01;34m~/proj3[00m$ ./life 1 gamelife.txt 10 n[C[1@1
+Number of threads must be between 1 and 10.
+]0;cs2011@cs2011vm: ~/proj3[01;32mcs2011@cs2011vm[00m:[01;34m~/proj3[00m$ ./life 11 gamelife.txt 10 n[1P[1@0[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ky
+Generation 0:
+0 1 0 0 
+0 0 1 0 
+1 0 0 1 
+
+Generation 1:
+0 0 0 0 
+0 1 1 0 
+0 0 0 0 
+
+Generation 2:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+
+Final Board:
+Generation 2:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+
+]0;cs2011@cs2011vm: ~/proj3[01;32mcs2011@cs2011vm[00m:[01;34m~/proj3[00m$ end[K[K[Kexit
+
+Script done on 2023-09-29 11:00:31-04:00 [COMMAND_EXIT_CODE="0"]
